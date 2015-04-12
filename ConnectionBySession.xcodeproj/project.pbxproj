@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		56E400B11AD8BD2F002A5129 /* ConnectionBySession.h in Headers */ = {isa = PBXBuildFile; fileRef = 56E400B01AD8BD2F002A5129 /* ConnectionBySession.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		56E400B71AD8BD2F002A5129 /* ConnectionBySession.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56E400AB1AD8BD2F002A5129 /* ConnectionBySession.framework */; };
 		56E400BE1AD8BD2F002A5129 /* ConnectionBySessionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E400BD1AD8BD2F002A5129 /* ConnectionBySessionTests.m */; };
+		56E400CD1AD94F9C002A5129 /* ConnectionBySessionResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 56E400CC1AD94F9C002A5129 /* ConnectionBySessionResult.h */; };
+		56E400CF1AD94FAA002A5129 /* ConnectionBySession.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E400CE1AD94FAA002A5129 /* ConnectionBySession.m */; };
+		56EAFD6D1ADA182800927FC1 /* ConnectionBySession.h in Headers */ = {isa = PBXBuildFile; fileRef = 56EAFD6C1ADA182800927FC1 /* ConnectionBySession.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,10 +27,12 @@
 /* Begin PBXFileReference section */
 		56E400AB1AD8BD2F002A5129 /* ConnectionBySession.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ConnectionBySession.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56E400AF1AD8BD2F002A5129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		56E400B01AD8BD2F002A5129 /* ConnectionBySession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectionBySession.h; sourceTree = "<group>"; };
 		56E400B61AD8BD2F002A5129 /* ConnectionBySessionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectionBySessionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56E400BC1AD8BD2F002A5129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56E400BD1AD8BD2F002A5129 /* ConnectionBySessionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectionBySessionTests.m; sourceTree = "<group>"; };
+		56E400CC1AD94F9C002A5129 /* ConnectionBySessionResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionBySessionResult.h; sourceTree = "<group>"; };
+		56E400CE1AD94FAA002A5129 /* ConnectionBySession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionBySession.m; sourceTree = "<group>"; };
+		56EAFD6C1ADA182800927FC1 /* ConnectionBySession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConnectionBySession.h; path = ../ConnectionBySession.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +75,8 @@
 		56E400AD1AD8BD2F002A5129 /* ConnectionBySession */ = {
 			isa = PBXGroup;
 			children = (
-				56E400B01AD8BD2F002A5129 /* ConnectionBySession.h */,
+				56E400C81AD8BE9A002A5129 /* Classes */,
+				56E400C71AD8BE88002A5129 /* Headers */,
 				56E400AE1AD8BD2F002A5129 /* Supporting Files */,
 			);
 			path = ConnectionBySession;
@@ -102,6 +107,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		56E400C71AD8BE88002A5129 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				56EAFD6C1ADA182800927FC1 /* ConnectionBySession.h */,
+				56E400CC1AD94F9C002A5129 /* ConnectionBySessionResult.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		56E400C81AD8BE9A002A5129 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				56E400CE1AD94FAA002A5129 /* ConnectionBySession.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -109,7 +131,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56E400B11AD8BD2F002A5129 /* ConnectionBySession.h in Headers */,
+				56EAFD6D1ADA182800927FC1 /* ConnectionBySession.h in Headers */,
+				56E400CD1AD94F9C002A5129 /* ConnectionBySessionResult.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56E400CF1AD94FAA002A5129 /* ConnectionBySession.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +418,7 @@
 				56E400C31AD8BD2F002A5129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56E400C41AD8BD2F002A5129 /* Build configuration list for PBXNativeTarget "ConnectionBySessionTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +427,7 @@
 				56E400C61AD8BD2F002A5129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
