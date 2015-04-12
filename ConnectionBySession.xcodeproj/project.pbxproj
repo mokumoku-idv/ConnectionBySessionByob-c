@@ -11,7 +11,7 @@
 		56E400BE1AD8BD2F002A5129 /* ConnectionBySessionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E400BD1AD8BD2F002A5129 /* ConnectionBySessionTests.m */; };
 		56E400CD1AD94F9C002A5129 /* ConnectionBySessionResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 56E400CC1AD94F9C002A5129 /* ConnectionBySessionResult.h */; };
 		56E400CF1AD94FAA002A5129 /* ConnectionBySession.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E400CE1AD94FAA002A5129 /* ConnectionBySession.m */; };
-		56EAFD6D1ADA182800927FC1 /* ConnectionBySession.h in Headers */ = {isa = PBXBuildFile; fileRef = 56EAFD6C1ADA182800927FC1 /* ConnectionBySession.h */; };
+		56EAFD6F1ADA18E700927FC1 /* ConnectionBySession.h in Headers */ = {isa = PBXBuildFile; fileRef = 56EAFD6E1ADA18E700927FC1 /* ConnectionBySession.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +32,7 @@
 		56E400BD1AD8BD2F002A5129 /* ConnectionBySessionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectionBySessionTests.m; sourceTree = "<group>"; };
 		56E400CC1AD94F9C002A5129 /* ConnectionBySessionResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionBySessionResult.h; sourceTree = "<group>"; };
 		56E400CE1AD94FAA002A5129 /* ConnectionBySession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionBySession.m; sourceTree = "<group>"; };
-		56EAFD6C1ADA182800927FC1 /* ConnectionBySession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConnectionBySession.h; path = ../ConnectionBySession.h; sourceTree = "<group>"; };
+		56EAFD6E1ADA18E700927FC1 /* ConnectionBySession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionBySession.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +110,7 @@
 		56E400C71AD8BE88002A5129 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				56EAFD6C1ADA182800927FC1 /* ConnectionBySession.h */,
+				56EAFD6E1ADA18E700927FC1 /* ConnectionBySession.h */,
 				56E400CC1AD94F9C002A5129 /* ConnectionBySessionResult.h */,
 			);
 			path = Headers;
@@ -131,7 +131,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56EAFD6D1ADA182800927FC1 /* ConnectionBySession.h in Headers */,
+				56EAFD6F1ADA18E700927FC1 /* ConnectionBySession.h in Headers */,
 				56E400CD1AD94F9C002A5129 /* ConnectionBySessionResult.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
